@@ -48,7 +48,7 @@ khorocha/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/khorocha.git
+git clone https://github.com/mmhossain/khorocha.git
 cd khorocha
 ```
 
@@ -144,5 +144,5 @@ MIT License © 2025 [Mosharaf Hossain]
 
 For feedback, questions, or collaboration opportunities:
 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mosharafhossain)
-- GitHub: [GitHub](https://github.com/mmhossain)
+- [LinkedIn](https://www.linkedin.com/in/mosharafhossain)
+- [GitHub](https://github.com/mmhossain)
