@@ -1,0 +1,6 @@
+@Khorocha.Api_HostAddress = http://localhost:5253
+
+GET {{Khorocha.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
