@@ -1,0 +1,992 @@
+[
+  {
+    "id": "b10330fb-b39a-48d2-88eb-4e9ef9126e74",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-01-01",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "62bbe3da-2b35-4bb9-b184-7fd1f0e37292",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-01-31",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "0c923f2e-89a0-42f9-86e5-3f5aca64aa65",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-03-02",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "bd9badc7-ea63-4fe9-9f89-a834b785b041",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-04-01",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "bfc6ce6a-e858-4026-86fa-e31863cf6268",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-05-01",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "8c86c4bb-4f91-40cb-9cb8-fbdd29ba08c5",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-05-31",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "6748ce88-d04a-47a0-bf7f-341bb3aa66b7",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-06-30",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "48ffda22-7395-4df5-9a93-4b8f879cfe00",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-07-30",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "2f042f12-24bb-4bbb-9f58-9a30b72edf22",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-08-29",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "5eda785f-5268-4947-a56b-4ee490862642",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-09-28",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "822f299f-91f3-467b-a6a5-c656ece976b3",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-10-28",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "f201da3e-365e-4658-81eb-8a3c8ea1ae4e",
+    "title": "Monthly Rent",
+    "amount": 1000,
+    "date": "2025-11-27",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "d9ddb035-ed0a-4733-95dd-91a55da4ae9b",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-01-01",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "f802522e-09c2-4f8a-9707-406c7161b4e4",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-01-31",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "bffb86e0-7a17-4d69-92d2-4afc9804fccc",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-03-02",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "36b67f83-5a62-4652-8753-1915a79e4f69",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-04-01",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "c98f56c4-a309-43b6-bbe7-4571a06c91d6",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-05-01",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "290d5c91-55a0-457c-9aea-9856f628e94e",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-05-31",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "a0ce5121-7095-444f-be4b-ff7849356957",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-06-30",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "17c96533-d9ec-46f4-8e51-143b9db6b2e0",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-07-30",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "0408db99-bf94-4f35-93e2-107b475a0c83",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-08-29",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "f33a81f4-c3c7-401b-9948-6fbe298d9548",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-09-28",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "f2796c66-a5f5-46f1-9c44-afcd4239b051",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-10-28",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "0122d4bf-a1a0-4e7c-a0a9-56f9763bbb9b",
+    "title": "Electric Bill",
+    "amount": 150,
+    "date": "2025-11-27",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "9d06edc0-e16c-4d0b-82e7-b4d86b3fede0",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-01-01",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "48080e89-6a5d-4195-9b93-709b08c66890",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-01-31",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "49b7ee98-4814-4a05-8e54-d40d31f1d923",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-03-02",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "68bc9d4d-c306-4f71-92ec-8e554cac3538",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-04-01",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "c1ea74db-d31e-4b3f-aea8-ed42a70e7dac",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-05-01",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "62e86e29-fff3-4329-a18f-13a1d36bc2aa",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-05-31",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "e63a05d8-772b-4c07-a3ca-3c32fd33b04f",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-06-30",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "28fdc8f4-474b-4be0-9404-b8c5e5751c98",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-07-30",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "40ba4e01-1d89-44f8-bd51-f695fb73a8cd",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-08-29",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "b28ed424-906f-421d-88d4-3fdf6db10c32",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-09-28",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "a3fe2f0a-0f91-405c-aef7-2f4f6282bd5a",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-10-28",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "a7e120b8-0e8e-406a-8069-339cbdb4344d",
+    "title": "Monthly Salary",
+    "amount": 3000,
+    "date": "2025-11-27",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": true,
+    "recurringUntil": "2025-12-01"
+  },
+  {
+    "id": "7aed5fb2-89df-4791-86f5-82acd3429a05",
+    "title": "Online Course",
+    "amount": 11.09,
+    "date": "2025-05-02",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  },
+  {
+    "id": "56d4f02a-954d-4598-b51d-654eb1135284",
+    "title": "Coffee",
+    "amount": 254.29,
+    "date": "2025-06-10",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "3964b8bf-420a-4f0a-9ac8-b8f0173e31a2",
+    "title": "Concert",
+    "amount": 443.46,
+    "date": "2025-07-11",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "72abf17b-f5d1-406f-88c0-295af9d4dc13",
+    "title": "Concert",
+    "amount": 213.47,
+    "date": "2025-08-20",
+    "type": "expense",
+    "categoryId": "7",
+    "isRecurring": false
+  },
+  {
+    "id": "a386f490-7411-4f18-b15e-bab2ba3731be",
+    "title": "Coffee",
+    "amount": 160.5,
+    "date": "2025-11-24",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "b70a4553-8eed-47b8-977d-263915ad25ba",
+    "title": "Groceries",
+    "amount": 272.29,
+    "date": "2025-10-02",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "9fcecbb5-b4b2-4de8-b726-5e5025364d7b",
+    "title": "Online Course",
+    "amount": 252.1,
+    "date": "2025-10-24",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "e011cda0-0499-4c74-9aa3-70caafc923fa",
+    "title": "Concert",
+    "amount": 239.47,
+    "date": "2025-08-13",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "cc0c5f82-afc2-4391-aa68-0025be2a8b2d",
+    "title": "Dining Out",
+    "amount": 110.82,
+    "date": "2025-04-11",
+    "type": "expense",
+    "categoryId": "10",
+    "isRecurring": false
+  },
+  {
+    "id": "c212260f-c502-4828-9cc2-52dbd322d382",
+    "title": "Online Course",
+    "amount": 155.31,
+    "date": "2025-01-15",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "e24c616a-1301-426a-b136-b0013cdca16e",
+    "title": "Coffee",
+    "amount": 473.87,
+    "date": "2025-06-10",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "70ea5d44-97a5-46a6-a728-1c31ee682fd8",
+    "title": "Coffee",
+    "amount": 157.16,
+    "date": "2025-06-24",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "54887d65-92ed-4cf8-8458-0e7c6ecb938e",
+    "title": "Bus Pass",
+    "amount": 336.17,
+    "date": "2025-03-23",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "c5e0ecff-f552-406f-81a5-6e2b61f81350",
+    "title": "Gym",
+    "amount": 234.37,
+    "date": "2025-05-13",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  },
+  {
+    "id": "a0b7a835-b876-4639-b889-ce77c17a3875",
+    "title": "Coffee",
+    "amount": 200.38,
+    "date": "2025-10-11",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": false
+  },
+  {
+    "id": "e21b4677-0c85-4a8e-ab39-cb7a957fbe88",
+    "title": "Online Course",
+    "amount": 469.17,
+    "date": "2025-10-15",
+    "type": "expense",
+    "categoryId": "10",
+    "isRecurring": false
+  },
+  {
+    "id": "f5f925ec-ef71-458d-bf14-69c5d4b48e1f",
+    "title": "Data Plan",
+    "amount": 409.18,
+    "date": "2025-11-15",
+    "type": "expense",
+    "categoryId": "6",
+    "isRecurring": false
+  },
+  {
+    "id": "eabdde57-be06-431c-b92a-29ad544f84f3",
+    "title": "Concert",
+    "amount": 208.74,
+    "date": "2025-07-01",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "b0625cc3-cee9-411a-a49d-043482ba7e6e",
+    "title": "Data Plan",
+    "amount": 393.77,
+    "date": "2025-07-20",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": false
+  },
+  {
+    "id": "62dda3ad-64f8-427b-9e52-1a6c0f2c0461",
+    "title": "Data Plan",
+    "amount": 260.84,
+    "date": "2025-10-24",
+    "type": "expense",
+    "categoryId": "6",
+    "isRecurring": false
+  },
+  {
+    "id": "1e37a9a3-6747-4060-b0d3-2bd2baf6d9f8",
+    "title": "Data Plan",
+    "amount": 219.91,
+    "date": "2025-09-12",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "74cc5083-c791-474e-ad36-6369b2fed1ed",
+    "title": "Netflix",
+    "amount": 445.99,
+    "date": "2025-11-11",
+    "type": "expense",
+    "categoryId": "6",
+    "isRecurring": false
+  },
+  {
+    "id": "a4f8a58e-7993-40e5-8d20-67037b6e6011",
+    "title": "Gym",
+    "amount": 225.5,
+    "date": "2025-03-05",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "10181d3a-4deb-4bec-b2cf-607fadb3c752",
+    "title": "Online Course",
+    "amount": 23.4,
+    "date": "2025-02-08",
+    "type": "expense",
+    "categoryId": "7",
+    "isRecurring": false
+  },
+  {
+    "id": "a17703d8-efab-4b67-a903-656664d570fe",
+    "title": "Gym",
+    "amount": 16.26,
+    "date": "2025-02-09",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  },
+  {
+    "id": "fda4f82f-2952-424c-8978-d18f4172a6ff",
+    "title": "Bus Pass",
+    "amount": 299.39,
+    "date": "2025-10-05",
+    "type": "expense",
+    "categoryId": "6",
+    "isRecurring": false
+  },
+  {
+    "id": "5e6ce055-785d-495b-ba5f-1e1d58827adb",
+    "title": "Data Plan",
+    "amount": 141.78,
+    "date": "2025-12-14",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "8cb21598-f5da-467c-a845-412a6298dae7",
+    "title": "Netflix",
+    "amount": 473.66,
+    "date": "2025-11-10",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": false
+  },
+  {
+    "id": "8b093c41-dde0-441d-b72c-f7a63e75ccb6",
+    "title": "Coffee",
+    "amount": 49.75,
+    "date": "2025-06-24",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "9edfdc68-939b-482a-a964-5a4d06dd5b27",
+    "title": "Bus Pass",
+    "amount": 338.4,
+    "date": "2025-07-18",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "2e344e80-7106-4f6d-91f8-2c84ce04e8b1",
+    "title": "Online Course",
+    "amount": 183.54,
+    "date": "2025-11-05",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": false
+  },
+  {
+    "id": "3dd87d39-801e-4655-b6ba-0d23083d8192",
+    "title": "Coffee",
+    "amount": 65.82,
+    "date": "2025-09-24",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": false
+  },
+  {
+    "id": "0477c365-5dde-452a-a2a7-76eacf45a191",
+    "title": "Bus Pass",
+    "amount": 297.32,
+    "date": "2025-03-19",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "8e0f93a2-3001-4082-9ec0-054eb7f4cb78",
+    "title": "Dining Out",
+    "amount": 15.45,
+    "date": "2025-04-13",
+    "type": "expense",
+    "categoryId": "7",
+    "isRecurring": false
+  },
+  {
+    "id": "36357d37-8fb7-46ce-8108-ee32618dbef2",
+    "title": "Groceries",
+    "amount": 468.67,
+    "date": "2025-12-21",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "f8afdcf0-25f9-44a3-8d10-a9599c1a66cf",
+    "title": "Data Plan",
+    "amount": 311.07,
+    "date": "2025-07-17",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "697d25c6-1fe4-48c3-9d8c-5e0e5bb858ed",
+    "title": "Netflix",
+    "amount": 164.59,
+    "date": "2025-06-11",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "a2f6409f-47aa-4ae7-bc17-18db48a606a7",
+    "title": "Coffee",
+    "amount": 132.15,
+    "date": "2025-10-15",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "4543dd05-8396-42d0-b1be-ecbb966c84db",
+    "title": "Bus Pass",
+    "amount": 448.9,
+    "date": "2025-10-27",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "10c3d3a3-f266-4b9c-bd9f-1560c9c9b199",
+    "title": "Dining Out",
+    "amount": 330.08,
+    "date": "2025-05-19",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  },
+  {
+    "id": "c1f7a785-3426-4687-b837-850aa08320ca",
+    "title": "Concert",
+    "amount": 454.77,
+    "date": "2025-06-11",
+    "type": "expense",
+    "categoryId": "7",
+    "isRecurring": false
+  },
+  {
+    "id": "4bf9258a-c16a-4db5-9fd7-3915fc354b14",
+    "title": "Netflix",
+    "amount": 409.8,
+    "date": "2025-09-06",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "5ddf155d-7a81-46d5-95f9-1f15776d55b3",
+    "title": "Dining Out",
+    "amount": 180.34,
+    "date": "2025-02-13",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "5f6f65a8-c952-4472-9be7-dff328e47ec9",
+    "title": "Data Plan",
+    "amount": 411.78,
+    "date": "2025-10-09",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": false
+  },
+  {
+    "id": "91aa5c25-912b-4555-8b05-1a3fd8f811e9",
+    "title": "Groceries",
+    "amount": 36.64,
+    "date": "2025-12-28",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "a0f90425-aa68-44ed-bc01-ecc3bf6a320f",
+    "title": "Netflix",
+    "amount": 467.91,
+    "date": "2025-03-24",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "10fd5326-6273-4604-8fdd-d1e2c11ff0cb",
+    "title": "Online Course",
+    "amount": 55.03,
+    "date": "2025-07-21",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "d2dcd8fe-2b1f-4fda-a524-2902551b4c9e",
+    "title": "Online Course",
+    "amount": 445.86,
+    "date": "2025-12-13",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  },
+  {
+    "id": "fcaf0adc-0238-4498-8821-e6b7e081e60c",
+    "title": "Netflix",
+    "amount": 455.58,
+    "date": "2025-09-23",
+    "type": "expense",
+    "categoryId": "10",
+    "isRecurring": false
+  },
+  {
+    "id": "85c21024-3e6a-4d21-a454-88f52d121b67",
+    "title": "Dining Out",
+    "amount": 247.28,
+    "date": "2025-03-05",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "2e52ecd5-409c-479f-b56f-efe0d13e2e8e",
+    "title": "Netflix",
+    "amount": 243.0,
+    "date": "2025-07-07",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": false
+  },
+  {
+    "id": "7a5c4c5a-2367-4801-8ec2-b20b03159bf8",
+    "title": "Doctor Visit",
+    "amount": 198.89,
+    "date": "2025-02-10",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "bf89333f-b857-430d-ba13-42460ba110f3",
+    "title": "Bus Pass",
+    "amount": 111.66,
+    "date": "2025-09-17",
+    "type": "expense",
+    "categoryId": "5",
+    "isRecurring": false
+  },
+  {
+    "id": "0f48536f-c826-45f0-8bf6-965822e967cd",
+    "title": "Groceries",
+    "amount": 281.44,
+    "date": "2025-07-03",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  },
+  {
+    "id": "3fc0f269-bcba-4bc2-b8a7-7684bafad47c",
+    "title": "Dining Out",
+    "amount": 352.21,
+    "date": "2025-03-04",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "e87c7ad9-01ad-4597-9acf-d27446fd05b3",
+    "title": "Bus Pass",
+    "amount": 369.91,
+    "date": "2025-01-23",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  },
+  {
+    "id": "86a1a9fc-19a8-4245-9811-2a82ffe26760",
+    "title": "Concert",
+    "amount": 49.34,
+    "date": "2025-02-21",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "12b4f332-c2f4-4957-a57a-7806fad47157",
+    "title": "Data Plan",
+    "amount": 203.47,
+    "date": "2025-06-11",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "4caf7023-c961-4026-b4bf-5f25cac22126",
+    "title": "Concert",
+    "amount": 389.07,
+    "date": "2025-04-16",
+    "type": "expense",
+    "categoryId": "10",
+    "isRecurring": false
+  },
+  {
+    "id": "99271372-f053-415f-847a-74c035479fd5",
+    "title": "Dining Out",
+    "amount": 186.5,
+    "date": "2025-01-10",
+    "type": "expense",
+    "categoryId": "4",
+    "isRecurring": false
+  },
+  {
+    "id": "d89f1922-a18c-4d53-a6d7-5b793e66550b",
+    "title": "Online Course",
+    "amount": 471.88,
+    "date": "2025-11-04",
+    "type": "expense",
+    "categoryId": "1",
+    "isRecurring": false
+  },
+  {
+    "id": "6a29d0b8-d777-4841-9a30-fede3be29e7c",
+    "title": "Concert",
+    "amount": 293.07,
+    "date": "2025-03-25",
+    "type": "expense",
+    "categoryId": "10",
+    "isRecurring": false
+  },
+  {
+    "id": "09b91137-5a74-46f3-af11-fa42921e0540",
+    "title": "Bus Pass",
+    "amount": 123.08,
+    "date": "2025-10-22",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "579357ee-cf01-49c6-85db-53ad69081b2e",
+    "title": "Groceries",
+    "amount": 476.44,
+    "date": "2025-05-24",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "bcf107c6-8ed7-40d3-aa2f-fc980d14bf3e",
+    "title": "Online Course",
+    "amount": 254.85,
+    "date": "2025-06-16",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "6406a0b7-85c1-4071-9c3c-0e3d84e1475f",
+    "title": "Concert",
+    "amount": 425.82,
+    "date": "2025-02-02",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "44a69da5-b1bc-4037-9cc9-0fef146edc48",
+    "title": "Netflix",
+    "amount": 335.33,
+    "date": "2025-10-05",
+    "type": "income",
+    "categoryId": "3",
+    "isRecurring": false
+  },
+  {
+    "id": "ebd5e396-3282-4d90-bc77-1db371c2e568",
+    "title": "Bus Pass",
+    "amount": 60.47,
+    "date": "2025-02-24",
+    "type": "expense",
+    "categoryId": "9",
+    "isRecurring": false
+  },
+  {
+    "id": "0750fb9e-cc64-41dd-a51d-64069474cb92",
+    "title": "Doctor Visit",
+    "amount": 349.04,
+    "date": "2025-07-20",
+    "type": "expense",
+    "categoryId": "2",
+    "isRecurring": false
+  },
+  {
+    "id": "6d714d00-1435-489a-a577-d0db54bdf064",
+    "title": "Online Course",
+    "amount": 315.31,
+    "date": "2025-11-03",
+    "type": "expense",
+    "categoryId": "8",
+    "isRecurring": false
+  }
+]

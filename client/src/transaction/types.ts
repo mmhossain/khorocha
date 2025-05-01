@@ -10,4 +10,6 @@ export interface Transaction {
     date: string;
     type: "income" | "expense";
     categoryId: string;
+    isRecurring: boolean;
+    recurringUntil: string;
 }
