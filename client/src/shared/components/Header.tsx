@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Box bg="teal.500" color="white" px={6} py={6}>
+    <Box bg="teal.500" color="white" px={6} py={8}>
       <Flex align="center">
         <Link to="/">
-          <Heading size="md">
+          <Heading size="xl">
             Khorocha{" "}
-            <Text as="span" fontSize="sm">
+            <Text as="span" fontSize="md">
               (খরচা)
             </Text>
           </Heading>
