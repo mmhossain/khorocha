@@ -1,10 +1,13 @@
 import { Provider } from "./components/ui/provider";
-import DashboardPage from "./dashboard/components/DashboardPage";
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <Provider>
-      <DashboardPage />
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
     </Provider>
   );
 }
