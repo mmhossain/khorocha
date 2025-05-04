@@ -1,6 +1,6 @@
 import { HStack, Box, Spacer, Flex } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
-import AddTransactionButton from "../../transaction/components/AddTransactionButton";
+import AddEditTransactionDialog from "../../transaction/components/AddEditTransactionDialog";
 
 const TopMenu = () => {
   const linkStyle = ({ isActive }: { isActive: boolean }) => ({
@@ -18,7 +18,7 @@ const TopMenu = () => {
       py={2}
     >
       <Flex align="center">
-        <HStack spaceX={6}>
+        <HStack spacing={6}>
           <NavLink to="/" style={linkStyle}>
             Dashboard
           </NavLink>
@@ -30,7 +30,7 @@ const TopMenu = () => {
           </NavLink>
         </HStack>
         <Spacer />
-        <AddTransactionButton />
+        <AddEditTransactionDialog />
       </Flex>
     </Box>
   );

@@ -1,4 +1,15 @@
-import { Table, Box, Spinner, Text, HStack } from "@chakra-ui/react";
+import {
+  Table,
+  Box,
+  Spinner,
+  Text,
+  HStack,
+  Thead,
+  Tr,
+  Th,
+  Tbody,
+  Td,
+} from "@chakra-ui/react";
 import { FaSortUp, FaSortDown } from "react-icons/fa";
 import { useTransactions, useCategories } from "../hooks/useTransactions";
 import { useMemo, useState } from "react";
@@ -101,70 +112,53 @@ const TransactionsTable = ({ filter }: TransactionsTableProps) => {
   }
 
   return (
-    <Table.Root striped size="md">
-      <Table.Header>
-        <Table.Row>
-          <Table.ColumnHeader
-            cursor="pointer"
-            onClick={() => handleSort("title")}
-          >
-            <HStack spaceX={1}>
+    <Table variant="striped" size="md">
+      <Thead>
+        <Tr>
+          <Th cursor="pointer" onClick={() => handleSort("title")}>
+            <HStack spacing={1}>
               <Text>Title</Text>
               {renderSortIcon("title")}
             </HStack>
-          </Table.ColumnHeader>
-          <Table.ColumnHeader
-            cursor="pointer"
-            onClick={() => handleSort("type")}
-          >
-            <HStack spaceX={1}>
+          </Th>
+          <Th cursor="pointer" onClick={() => handleSort("type")}>
+            <HStack spacing={1}>
               <Text>Type</Text>
               {renderSortIcon("type")}
             </HStack>
-          </Table.ColumnHeader>
-          <Table.ColumnHeader
-            cursor="pointer"
-            onClick={() => handleSort("amount")}
-          >
-            <HStack spaceX={1} justify="flex-end">
+          </Th>
+          <Th cursor="pointer" onClick={() => handleSort("amount")}>
+            <HStack spacing={1} justify="flex-end">
               <Text>Amount</Text>
               {renderSortIcon("amount")}
             </HStack>
-          </Table.ColumnHeader>
-          <Table.ColumnHeader
-            cursor="pointer"
-            onClick={() => handleSort("category")}
-          >
-            <HStack spaceX={1}>
+          </Th>
+          <Th cursor="pointer" onClick={() => handleSort("category")}>
+            <HStack spacing={1}>
               <Text>Category</Text>
               {renderSortIcon("category")}
             </HStack>
-          </Table.ColumnHeader>
-          <Table.ColumnHeader
-            cursor="pointer"
-            onClick={() => handleSort("date")}
-          >
-            <HStack spaceX={1}>
+          </Th>
+          <Th cursor="pointer" onClick={() => handleSort("date")}>
+            <HStack spacing={1}>
               <Text>Date</Text>
               {renderSortIcon("date")}
             </HStack>
-          </Table.ColumnHeader>
-        </Table.Row>
-      </Table.Header>
-      <Table.Body>
+          </Th>
+        </Tr>
+      </Thead>
+      <Tbody>
         {sortedTransactions.map((txn) => (
-          <Table.Row key={txn.id}>
-            <Table.Cell>{txn.title}</Table.Cell>
-            <Table.Cell>{txn.type}</Table.Cell>
-            <Table.Cell textAlign="right">${txn.amount.toFixed(2)}</Table.Cell>
-            <Table.Cell>
-              {categoryMap.get(txn.categoryId) || "Unknown"}
-            </Table.Cell>
-            <Table.Cell>{txn.date}</Table.Cell>
-          </Table.Row>
+          <Tr key={txn.id}>
+            <Td>{txn.title}</Td>
+            <Td>{txn.type}</Td>
+            <Td textAlign="right">${txn.amount.toFixed(2)}</Td>
+            <Td>{categoryMap.get(txn.categoryId) || "Unknown"}</Td>
+            <Td>{txn.date}</Td>
+          </Tr>
         ))}
-      </Table.Body>
-    </Table.Root>
+      </Tbody>
+    </Table>
   );
 };
 

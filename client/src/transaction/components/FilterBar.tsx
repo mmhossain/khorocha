@@ -5,9 +5,10 @@ import {
   VStack,
   Text,
   Select,
-  createListCollection,
-  Portal,
   InputGroup,
+  FormControl,
+  FormLabel,
+  InputRightAddon,
 } from "@chakra-ui/react";
 import { CiSearch } from "react-icons/ci";
 import { useEffect, useState } from "react";
@@ -36,65 +37,49 @@ const FilterBar = ({ onFilterChange }: FilterBarProps) => {
     }
   }, [search, fromDate, toDate, filterMode]);
 
-  const filterByItems = createListCollection({
-    items: [
-      { label: "Text", value: "text" },
-      { label: "Date Range", value: "date" },
-    ],
-  });
+  const filterByItems = [
+    { label: "Text", value: "text" },
+    { label: "Date Range", value: "date" },
+  ];
 
   return (
     <Box borderWidth="1px" borderRadius="md" p={4} mb={4}>
-      <VStack align="start" spaceX={4}>
-        <HStack align="flex-end" spaceX={6} width="100%">
+      <VStack align="start" spacing={4}>
+        <HStack align="flex-end" spacing={6} width="100%">
           {/* Filter Type Dropdown with label */}
           <Box>
-            <Text mb={1}>Filter Type</Text>
-            <Select.Root
-              width={200}
-              variant="outline"
-              collection={filterByItems}
-              value={[filterMode]}
-              onValueChange={(e) => setFilterMode(e.value[0] as FilterType)}
-            >
-              <Select.HiddenSelect />
-              <Select.Control>
-                <Select.Trigger>
-                  <Select.ValueText placeholder="Select Filter Type" />
-                </Select.Trigger>
-                <Select.IndicatorGroup>
-                  <Select.Indicator />
-                </Select.IndicatorGroup>
-              </Select.Control>
-              <Portal>
-                <Select.Positioner>
-                  <Select.Content>
-                    {filterByItems.items.map((filterType) => (
-                      <Select.Item item={filterType} key={filterType.value}>
-                        {filterType.label}
-                        <Select.ItemIndicator />
-                      </Select.Item>
-                    ))}
-                  </Select.Content>
-                </Select.Positioner>
-              </Portal>
-            </Select.Root>
+            <FormControl>
+              <FormLabel mb={1}>Filter Type</FormLabel>
+              <Select
+                width="200"
+                variant="outline"
+                value={filterMode}
+                onChange={(e) => setFilterMode(e.target.value as FilterType)}
+              >
+                {filterByItems.map((filterType) => (
+                  <option key={filterType.value}>{filterType.label}</option>
+                ))}
+              </Select>
+            </FormControl>
           </Box>
 
           {/* Conditional Filter Inputs */}
           {filterMode === "text" ? (
             <Box width="100%">
               <Text mb={1}>Search</Text>
-              <InputGroup endElement={<CiSearch />}>
+              <InputGroup>
                 <Input
                   placeholder="Enter title, type, amount or category..."
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
                 />
+                <InputRightAddon>
+                  <CiSearch />
+                </InputRightAddon>
               </InputGroup>
             </Box>
           ) : (
-            <HStack spaceX={4}>
+            <HStack spacing={4}>
               <Box>
                 <Text mb={1}>From</Text>
                 <Input
