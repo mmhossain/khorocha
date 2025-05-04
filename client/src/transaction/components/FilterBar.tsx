@@ -57,7 +57,9 @@ const FilterBar = ({ onFilterChange }: FilterBarProps) => {
                 onChange={(e) => setFilterMode(e.target.value as FilterType)}
               >
                 {filterByItems.map((filterType) => (
-                  <option key={filterType.value}>{filterType.label}</option>
+                  <option key={filterType.value} value={filterType.value}>
+                    {filterType.label}
+                  </option>
                 ))}
               </Select>
             </FormControl>

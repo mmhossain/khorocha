@@ -115,31 +115,66 @@ const TransactionsTable = ({ filter }: TransactionsTableProps) => {
     <Table variant="striped" size="md">
       <Thead>
         <Tr>
-          <Th cursor="pointer" onClick={() => handleSort("title")}>
+          <Th
+            textTransform="none"
+            fontWeight="bold"
+            bg="gray.400"
+            color="white"
+            cursor="pointer"
+            onClick={() => handleSort("title")}
+          >
             <HStack spacing={1}>
               <Text>Title</Text>
               {renderSortIcon("title")}
             </HStack>
           </Th>
-          <Th cursor="pointer" onClick={() => handleSort("type")}>
+          <Th
+            textTransform="none"
+            fontWeight="bold"
+            bg="gray.400"
+            color="white"
+            cursor="pointer"
+            onClick={() => handleSort("type")}
+          >
             <HStack spacing={1}>
               <Text>Type</Text>
               {renderSortIcon("type")}
             </HStack>
           </Th>
-          <Th cursor="pointer" onClick={() => handleSort("amount")}>
+          <Th
+            textTransform="none"
+            fontWeight="bold"
+            bg="gray.400"
+            color="white"
+            cursor="pointer"
+            onClick={() => handleSort("amount")}
+          >
             <HStack spacing={1} justify="flex-end">
               <Text>Amount</Text>
               {renderSortIcon("amount")}
             </HStack>
           </Th>
-          <Th cursor="pointer" onClick={() => handleSort("category")}>
+          <Th
+            textTransform="none"
+            fontWeight="bold"
+            bg="gray.400"
+            color="white"
+            cursor="pointer"
+            onClick={() => handleSort("category")}
+          >
             <HStack spacing={1}>
               <Text>Category</Text>
               {renderSortIcon("category")}
             </HStack>
           </Th>
-          <Th cursor="pointer" onClick={() => handleSort("date")}>
+          <Th
+            textTransform="none"
+            fontWeight="bold"
+            bg="gray.400"
+            color="white"
+            cursor="pointer"
+            onClick={() => handleSort("date")}
+          >
             <HStack spacing={1}>
               <Text>Date</Text>
               {renderSortIcon("date")}

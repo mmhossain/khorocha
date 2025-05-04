@@ -35,7 +35,9 @@ const categoryOptions = [
 // Validation schema
 const schema = z.object({
   title: z.string().min(1, "Title is required"),
-  amount: z.number().positive("Amount must be positive"),
+  amount: z
+    .number({ invalid_type_error: "Amount is required" })
+    .positive("Amount must be positive"),
   date: z.string().min(1, "Date is required"),
   type: z.enum(["income", "expense"]),
   categoryId: z.string().min(1, "Category is required"),
@@ -60,6 +62,7 @@ const AddEditTransactionDialog = () => {
 
   const mutation = useMutation({
     mutationFn: async (data: TransactionFormValues) => {
+      console.log(data);
       setLoading(true);
       return new Promise((resolve) => setTimeout(() => resolve(data), 1000));
     },
@@ -80,17 +83,28 @@ const AddEditTransactionDialog = () => {
     mutation.mutate(data);
   };
 
+  const handleClose = () => {
+    reset();
+    onClose();
+  };
+
   return (
     <>
       <Button colorScheme="blue" onClick={onOpen}>
         Add Transaction
       </Button>
 
-      <Modal isOpen={isOpen} onClose={onClose}>
+      <Modal
+        isCentered={true}
+        isOpen={isOpen}
+        closeOnOverlayClick={false}
+        onClose={onClose}
+        onCloseComplete={() => reset()}
+      >
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Add Transaction</ModalHeader>
-          <ModalCloseButton />
+          <ModalCloseButton onClick={handleClose} />
           <ModalBody>
             <form id="transaction-form" onSubmit={handleSubmit(onSubmit)}>
               <FormControl mb={3}>
@@ -145,7 +159,7 @@ const AddEditTransactionDialog = () => {
             </form>
           </ModalBody>
           <ModalFooter>
-            <Button variant="ghost" onClick={onClose}>
+            <Button variant="ghost" onClick={handleClose} marginX={2}>
               Cancel
             </Button>
             <Button
