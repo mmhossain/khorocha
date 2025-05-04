@@ -18,6 +18,9 @@ import {
   useToast,
   Text,
 } from "@chakra-ui/react";
+import { RiAddLargeFill } from "react-icons/ri";
+import { ImCancelCircle } from "react-icons/im";
+import { IoIosSave } from "react-icons/io";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -90,7 +93,7 @@ const AddEditTransactionDialog = () => {
 
   return (
     <>
-      <Button colorScheme="blue" onClick={onOpen}>
+      <Button leftIcon={<RiAddLargeFill />} colorScheme="blue" onClick={onOpen}>
         Add Transaction
       </Button>
 
@@ -159,7 +162,12 @@ const AddEditTransactionDialog = () => {
             </form>
           </ModalBody>
           <ModalFooter>
-            <Button variant="ghost" onClick={handleClose} marginX={2}>
+            <Button
+              variant="outline"
+              onClick={handleClose}
+              marginX={2}
+              leftIcon={<ImCancelCircle />}
+            >
               Cancel
             </Button>
             <Button
@@ -167,6 +175,7 @@ const AddEditTransactionDialog = () => {
               type="submit"
               form="transaction-form"
               isLoading={loading}
+              leftIcon={<IoIosSave />}
             >
               Save
             </Button>
