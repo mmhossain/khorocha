@@ -112,7 +112,7 @@ const TransactionsTable = ({ filter }: TransactionsTableProps) => {
   }
 
   return (
-    <Table variant="striped" size="md">
+    <Table variant="striped" size="md" bg="white">
       <Thead>
         <Tr>
           <Th

@@ -8,14 +8,29 @@ const Layout = () => {
   return (
     <Flex direction="column" minH="100vh">
       <Header />
-      <TopMenu />
-
-      {/* This is where the page-specific content will render */}
-      <Box flex="1" p={4}>
-        <Outlet />
+      <Box bg="#042037">
+        <Box maxW="90%" mx="auto" py={3}>
+          <TopMenu />
+        </Box>
       </Box>
 
-      <Footer />
+      {/* This is where the page-specific content will render */}
+      <Box
+        width="100%"
+        p={0}
+        bg="lightgray"
+        bgImage="url('/background-pattern.webp')"
+      >
+        <Box flex="1" maxW="90%" my={4} ml="auto" mr="auto">
+          <Outlet />
+        </Box>
+      </Box>
+
+      <Box w="100%" bg="gray.100" py={4} mt={0}>
+        <Box maxW="90%" mx="auto" textAlign="center">
+          <Footer />
+        </Box>
+      </Box>
     </Flex>
   );
 };

@@ -13,7 +13,7 @@ const DashboardPage = () => {
   return (
     <Flex direction="column">
       <Box flex="1">
-        <Container maxW="container.xl">
+        <Container maxW="container.xl" bg="white" p={3}>
           {/* 
           <ChartsSection />
           <PredictionsSection />

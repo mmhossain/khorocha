@@ -4,19 +4,13 @@ import AddEditTransactionDialog from "../../transaction/components/AddEditTransa
 
 const TopMenu = () => {
   const linkStyle = ({ isActive }: { isActive: boolean }) => ({
-    color: isActive ? "#2B6CB0" : "#4A5568",
+    color: isActive ? "#2B6CB0" : "white",
     fontWeight: isActive ? "bold" : "normal",
     textDecoration: "none",
   });
 
   return (
-    <Box
-      bg="gray.50"
-      borderBottom="1px solid"
-      borderColor="gray.200"
-      px={4}
-      py={2}
-    >
+    <Box px={2}>
       <Flex align="center">
         <HStack spacing={6}>
           <NavLink to="/" style={linkStyle}>
