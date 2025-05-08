@@ -43,7 +43,7 @@ const DashboardPage = () => {
       >
         {/* Left Column */}
         <Box w="24%">
-          <Box mb={5}>
+          <Box mb={7}>
             <MonthlyIncomeChart />
           </Box>
           <Box>
@@ -59,7 +59,7 @@ const DashboardPage = () => {
 
         {/* Right Column */}
         <Box w="20%">
-          <Box mb={4}>
+          <Box mb={7}>
             <PredictionsChart />
           </Box>
           <Box>

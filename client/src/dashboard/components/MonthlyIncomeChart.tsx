@@ -53,7 +53,7 @@ const MonthlyIncomeChart = () => {
               />
             ))}
           </Pie>
-          <Legend fontSize="1.5em" />
+          <Legend height={5} />
         </PieChart>
       </ResponsiveContainer>
     </Box>

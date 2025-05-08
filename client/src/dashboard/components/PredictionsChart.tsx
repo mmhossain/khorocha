@@ -27,7 +27,7 @@ const PredictionsChart = () => {
       >
         Predicted Expenses
       </Heading>
-      <ResponsiveContainer width="100%" height={175}>
+      <ResponsiveContainer width="100%" height={200}>
         <BarChart data={samplePredictions}>
           <XAxis dataKey="label" />
           <YAxis />
