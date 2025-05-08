@@ -1,17 +1,21 @@
-import { Box, Flex, Heading, Spacer, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Spacer } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Box bg="teal.500" color="white" px={6} py={8}>
+    <Box bg="teal.500" color="white" height="100px">
       <Flex align="center">
         <Link to="/">
-          <Heading size="xl">
-            Khorocha{" "}
-            <Text as="span" fontSize="md">
-              (খরচা)
-            </Text>
-          </Heading>
+          <Flex align="center" gap={3} lineHeight="1">
+            <Image
+              src="/khorocha.png"
+              alt="Khorocha Logo"
+              height="100px"
+              width="auto"
+              objectFit="contain"
+              mr={3}
+            />
+          </Flex>
         </Link>
 
         <Spacer />
