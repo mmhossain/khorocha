@@ -9,7 +9,7 @@ const Layout = () => {
     <Flex direction="column" minH="100vh">
       <Header />
       <Box bg="#042037">
-        <Box maxW="90%" mx="auto" py={3}>
+        <Box maxW="container.xl" mx="auto" py={3}>
           <TopMenu />
         </Box>
       </Box>
@@ -21,13 +21,13 @@ const Layout = () => {
         bg="lightgray"
         bgImage="url('/background-pattern.webp')"
       >
-        <Box flex="1" maxW="90%" my={4} ml="auto" mr="auto">
+        <Box flex="1" maxW="95%" my={4} ml="auto" mr="auto">
           <Outlet />
         </Box>
       </Box>
 
       <Box w="100%" bg="gray.100" py={4} mt={0}>
-        <Box maxW="90%" mx="auto" textAlign="center">
+        <Box maxW="95%" mx="auto" textAlign="center">
           <Footer />
         </Box>
       </Box>

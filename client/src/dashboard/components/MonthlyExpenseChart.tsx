@@ -5,6 +5,7 @@ import {
   useTransactions,
   useCategories,
 } from "../../transaction/hooks/useTransactions";
+import { getCurrentMonthLabel } from "../../shared/utils/dateUtils";
 
 const COLORS = [
   "#3182ce",
@@ -16,10 +17,9 @@ const COLORS = [
   "#4299e1",
 ];
 
-const MonthlyExpensePieChart = () => {
+const MonthlyExpenseChart = () => {
   const { data: transactions } = useTransactions();
   const { data: categories } = useCategories();
-
   const currentMonth = new Date().getMonth();
 
   const data = useMemo(() => {
@@ -49,34 +49,31 @@ const MonthlyExpensePieChart = () => {
     );
 
   return (
-    <ResponsiveContainer width="100%" height={300}>
-      <PieChart>
-        <Pie
-          dataKey="value"
-          isAnimationActive
-          data={data}
-          cx="50%"
-          cy="50%"
-          outerRadius={100}
-          label
-        >
-          {data.map((_, index) => (
-            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-          ))}
-        </Pie>
-        <Legend />
-      </PieChart>
-    </ResponsiveContainer>
+    <Box>
+      <Heading
+        size="sm"
+        mb={2}
+        pb={1}
+        borderBottom="1px dashed"
+        borderColor="gray.300"
+      >
+        {getCurrentMonthLabel()} - Expense
+      </Heading>
+      <ResponsiveContainer width="100%" height={200}>
+        <PieChart>
+          <Pie dataKey="value" data={data} outerRadius={55} label>
+            {data.map((_, index) => (
+              <Cell
+                key={`cell-${index}`}
+                fill={COLORS[index % COLORS.length]}
+              />
+            ))}
+          </Pie>
+          <Legend height={5} />
+        </PieChart>
+      </ResponsiveContainer>
+    </Box>
   );
 };
 
-const ChartsSection = () => (
-  <Box width={{ base: "100%", md: "40%" }} p={4}>
-    <Heading size="md" mb={4}>
-      Monthly Expenses by Category
-    </Heading>
-    <MonthlyExpensePieChart />
-  </Box>
-);
-
-export default ChartsSection;
+export default MonthlyExpenseChart;
