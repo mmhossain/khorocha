@@ -10,7 +10,7 @@ const TopMenu = () => {
   });
 
   return (
-    <Box px={2}>
+    <Box>
       <Flex align="center">
         <HStack spacing={6}>
           <NavLink to="/" style={linkStyle}>

@@ -93,7 +93,12 @@ const AddEditTransactionDialog = () => {
 
   return (
     <>
-      <Button leftIcon={<RiAddLargeFill />} colorScheme="blue" onClick={onOpen}>
+      <Button
+        leftIcon={<RiAddLargeFill />}
+        colorScheme="blue"
+        borderRadius="0"
+        onClick={onOpen}
+      >
         Add Transaction
       </Button>
 
@@ -105,7 +110,7 @@ const AddEditTransactionDialog = () => {
         onCloseComplete={() => reset()}
       >
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent borderRadius="0">
           <ModalHeader>Add Transaction</ModalHeader>
           <ModalCloseButton onClick={handleClose} />
           <ModalBody>
@@ -164,6 +169,7 @@ const AddEditTransactionDialog = () => {
           <ModalFooter>
             <Button
               variant="outline"
+              borderRadius="0"
               onClick={handleClose}
               marginX={2}
               leftIcon={<ImCancelCircle />}
@@ -172,6 +178,7 @@ const AddEditTransactionDialog = () => {
             </Button>
             <Button
               colorScheme="blue"
+              borderRadius="0"
               type="submit"
               form="transaction-form"
               isLoading={loading}
